@@ -18,7 +18,8 @@ class App extends Component {
     return (
       <main className='App'>
       <h1>IdeaBox</h1>
-      <Ideas />
+      <Ideas name='Travis' />
+      <Ideas name='Richy Rich' />
       </main>
     )
   }
